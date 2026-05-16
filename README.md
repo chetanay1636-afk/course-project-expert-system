@@ -14,8 +14,14 @@ AI-based system that recommends course projects based on user inputs.
 - Inference Engine
 - Expert System Rules
 
-## 📸 Screenshots
+## Screenshots
+
+### Home Page
 ![Home](home.png)
+
+---
+
+### Recommendation Output
 ![Result](result.png)
 
 ## 🔗 Live Demo
