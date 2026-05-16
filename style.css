@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 950px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #1e3c72;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.form-box {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #1e3c72;
+}
+
+.checkbox-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.checkbox-group label {
+    background: #f5f5f5;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.checkbox-group label:hover {
+    background: #dfe9f3;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #1e3c72;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #16315c;
+}
+
+.reset-btn {
+    background: #777;
+}
+
+.reset-btn:hover {
+    background: #555;
+}
+
+.result-box {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f0f8ff;
+    display: none;
+}
+
+.result-box h2 {
+    color: #1e3c72;
+    margin-bottom: 15px;
+}
+
+.result-box ul,
+.result-box ol {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.result-box li {
+    margin-bottom: 10px;
+}
+
+.result-box a {
+    color: #1e3c72;
+    text-decoration: none;
+}
+
+.result-box a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+
+    .checkbox-group {
+        grid-template-columns: 1fr;
+    }
+
+}
