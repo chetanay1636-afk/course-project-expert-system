@@ -25,7 +25,7 @@ AI-based system that recommends course projects based on user inputs.
 ![Result](result.png)
 
 ## 🔗 Live Demo
-(Add GitHub Pages link here)
+https://chetanay1636-afk.github.io/course-project-expert-system/
 
 ## 👨‍💻 Tech Stack
 - HTML
